@@ -1,7 +1,7 @@
 import { WebSocketServer } from 'ws';
 
 const wss = new WebSocketServer({ port: 8080 });
-
+// global variable
 let senderSocket: any = null;
 let receiverSocket: any= null;
 
